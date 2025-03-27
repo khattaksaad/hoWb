@@ -1,0 +1,22 @@
+# Ignore wp-config.php to avoid exposing database credentials
+wp-config.php
+
+# Ignore cache and uploads
+wp-content/cache/
+wp-content/uploads/
+
+# Ignore log files
+*.log
+
+# Ignore backup and export files
+*.sql
+*.tar.gz
+*.zip
+
+# Ignore WordPress core files if you only want to track custom code
+wp-admin/
+wp-includes/
+
+# Ignore hidden files
+.DS_Store
+*.swp
